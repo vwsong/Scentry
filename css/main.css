@@ -33,6 +33,7 @@ body {
 }
 
 .headerDiv {
+    display:none;
     margin-top: 30vH;
 }
 
