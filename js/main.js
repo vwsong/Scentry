@@ -1,8 +1,11 @@
 $(document).ready(function () {
     fade();
-    console.log("LOG"); 
+    $('.tooltipped').tooltip({
+        delay: 50
+    });
+    console.log("LOG");
 });
 
-function fade(){
+function fade() {
     $('.headerDiv').fadeIn(1500);
 }
